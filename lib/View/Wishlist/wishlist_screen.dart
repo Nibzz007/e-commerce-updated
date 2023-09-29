@@ -4,8 +4,8 @@ import 'package:lottie/lottie.dart';
 import 'package:second_project/model/wishlist_model.dart';
 import 'package:second_project/view/Home/selected_item_screen.dart';
 import '../../View/Widgets/text_button_widget.dart';
-import '../../view/utils/colours/colours.dart';
-import '../../view/utils/constants/style/text_style.dart';
+import '../utils/colours/colours.dart';
+import '../utils/constants/style/text_style.dart';
 
 class WishlistScreen extends StatelessWidget {
   WishlistScreen({

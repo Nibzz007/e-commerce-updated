@@ -5,7 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:second_project/view/utils/colours/colours.dart';
 import 'package:second_project/view/utils/constants/style/text_style.dart';
 import 'package:second_project/view/widgets/text_button_widget.dart';
-import '../../../view/utils/constants/size/sized_box.dart';
+import '../../utils/constants/size/sized_box.dart';
 import '../../../model/cart_model.dart';
 
 class MyCartWidget extends StatefulWidget {

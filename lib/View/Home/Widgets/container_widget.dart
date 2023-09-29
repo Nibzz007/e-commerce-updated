@@ -5,7 +5,7 @@ import 'package:second_project/model/product_model.dart';
 import 'package:second_project/model/wishlist_model.dart';
 import 'package:second_project/view/utils/colours/colours.dart';
 import 'package:second_project/view/utils/show_snack_bar.dart';
-import '../../../view/utils/constants/size/sized_box.dart';
+import '../../utils/constants/size/sized_box.dart';
 import '../selected_item_screen.dart';
 
 class ContainerWidget extends StatelessWidget {
