@@ -28,9 +28,10 @@ class HomeScreen extends StatelessWidget {
           title: Text(
             'CARTZONE',
             style: TextStyle(
-                fontSize: 26.sp,
-                fontWeight: FontWeight.w500,
-                letterSpacing: 10),
+              fontSize: 26.sp,
+              fontWeight: FontWeight.w500,
+              letterSpacing: 10,
+            ),
           )),
       body: SafeArea(
         child: Padding(
