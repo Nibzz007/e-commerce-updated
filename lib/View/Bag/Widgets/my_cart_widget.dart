@@ -47,7 +47,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                   Padding(
                     padding: const EdgeInsets.all(10),
                     child: Container(
-                      width: 90.w,
+                      width: 120.w,
                       height: double.infinity.h,
                       decoration: BoxDecoration(
                         color: kGrey300,
@@ -78,7 +78,9 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                         Text(
                           '₹ ${widget.cartItems[index].price}',
                           style: TextStyle(
-                              fontSize: 13.sp, fontWeight: FontWeight.w600),
+                            fontSize: 13.sp,
+                            fontWeight: FontWeight.w600,
+                          ),
                         ),
                         kHeight10,
                         Row(

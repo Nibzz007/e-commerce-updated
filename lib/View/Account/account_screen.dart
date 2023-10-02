@@ -56,16 +56,19 @@ class ProfileScreen extends StatelessWidget {
                         ),
                         kHeight20,
                         Text(
-                          user.firstName + ' ' + user.lastName,
+                          user.firstName.toUpperCase() +
+                              ' ' +
+                              user.lastName.toUpperCase(),
                           style: nameStyle,
                         ),
                         kHeight20,
                         ListTileWidget(
                           icon: const Icon(Icons.account_circle),
-                          title: const Text('My Account'),
+                          title: Text('My Account',style: listStyle,),
                           onPress: () async {
                             final user = await UserModel.getCurrentUserData(
-                                email: userEmail!);
+                              email: userEmail!,
+                            );
                             Navigator.push(
                               context,
                               MaterialPageRoute<StatelessWidget>(

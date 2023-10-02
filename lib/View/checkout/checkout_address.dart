@@ -7,7 +7,10 @@ import 'package:second_project/view/utils/colours/colours.dart';
 import 'package:second_project/view/utils/constants/size/sized_box.dart';
 
 class CheckoutAddress extends StatelessWidget {
-  CheckoutAddress({super.key, required this.callBackAddress});
+  CheckoutAddress({
+    super.key,
+    required this.callBackAddress,
+  });
 
   final user = FirebaseAuth.instance.currentUser!.email;
   final void Function(Address) callBackAddress;
