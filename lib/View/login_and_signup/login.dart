@@ -5,17 +5,17 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
-import 'package:second_project/view/BottomNav/persistent_nav_bar.dart';
+import 'package:second_project/view/bottom_nav/persistent_nav_bar.dart';
 import '../../controller/google_sign_in.dart';
-import '../../view/utils/colours/colours.dart';
+import '../utils/colours/colours.dart';
 import '../../../view/utils/constants/size/sized_box.dart';
 import '../../../view/utils/constants/style/text_style.dart';
 //import '../../model/google_sign_in.dart';
 import '../../main.dart';
 import 'package:second_project/view/utils/show_snack_bar.dart';
-import '../Widgets/elvated_button_widget.dart';
-import '../Widgets/row_text_widget.dart';
-import '../Widgets/text_form_field_widget.dart';
+import '../widgets/elvated_button_widget.dart';
+import '../widgets/row_text_widget.dart';
+import '../widgets/text_form_field_widget.dart';
 import 'sign_up.dart';
 
 class LogInScreen extends StatefulWidget {

@@ -2,12 +2,12 @@ import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
-import 'package:second_project/view/Login%20and%20SignUp/user_details.dart';
+import 'package:second_project/view/login_and_signup/user_details.dart';
 import 'package:second_project/view/utils/colours/colours.dart';
 import 'package:second_project/view/widgets/elvated_button_widget.dart';
 import '../../../view/utils/constants/size/sized_box.dart';
-import '../Widgets/row_text_widget.dart';
-import '../Widgets/text_form_field_widget.dart';
+import '../widgets/row_text_widget.dart';
+import '../widgets/text_form_field_widget.dart';
 import 'package:second_project/View/utils/constants/style/text_style.dart';
 
 class SignUpScreen extends StatefulWidget {
